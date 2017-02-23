@@ -20,7 +20,7 @@ Say you have a project named 'SuperProject' you want to keep track of using git 
  9.	Now type: **git push** _SuperProject master_ You'll be asked your password and githubID. When you type your password cursor doesnt move. Don't worry, it's recording your input. This whole operation pushed your local repository contents into the master(main) branch of the remote repository.
  10.	Now go back to your github and refresh the page you got after creating your repository. 'yourfilename' should be displayed.
 
- ###CLONING:
+###CLONING:
  If you wish to collaborate, or to view a repository that someone else has created, you need to clone it from a remote location, such as GitHub. Type this:
 
  **git clone** _URL-path-to-repository_
@@ -55,7 +55,7 @@ Say you have a project named 'SuperProject' you want to keep track of using git 
 
  **git branch** _-m new-name_
 
- ###STASHING
+###STASHING
  To stash away changes to be applied later, use the **git stash** command on your current branch  
  Stash contains your new work, as determined by Git in relation to where you will be applying that stash.  
  You stash when you need to go do work on some other branch on the same repo, or if you don't wish to commit changes yet.  
@@ -66,7 +66,7 @@ Say you have a project named 'SuperProject' you want to keep track of using git 
  **git stash branch** _new-cool-feature-for-superproject_  
  This will create a branch off your master named _new-cool-feature-for-superproject_ and changes made will be applied to it. At the same time, these changes will disappear from master, as if you properly branched in the first place.  
 
- ###PUSHING
+###PUSHING
  Pushing is a moving changes into a remote repository. Normally, you want the remote repo to also have a branch just like yours so that others could review that branch, and merge it into remote master if they like it. Type this:  
  **git push origin** _new-cool-feature-for-superproject_  
  This creates a branch _new-cool-feature-for-superproject_ on the remote. Now you can go to GitHub and issue a Pull Request on that branch. Should it get approved, your changes could be merged into the remote repo.  
