@@ -32,7 +32,7 @@ Say you have a project named 'SuperProject' you want to keep track of using git 
  **git pull**  
  This should synchronize the content of the remote repo with you local copy. Now you can branch.
 
- ###BRANCHING:
+###BRANCHING:
  Most workflows involve branching. A branch is essentially a sandboxed copy of the original repository. It is sandboxed
  because when you make changes on it, they are not going to affect the original repository, unless you merge the branch into the original repository, at which point the changes you made will become part of the original repo. This also allows for easy code review process using Pull Requests (a request for other developers to pull your branch and see how your changes work).
 
